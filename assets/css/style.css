@@ -1,0 +1,43 @@
+/*
+    Archivo: style.css
+    Trabajo Practico Integrador - IPF
+    Descripcion: Estilos generales para todas las paginas del sitio
+*/
+/* === BODY === */
+body{
+    font-family: sans-serif;
+}
+
+/* === HEADER === */
+header{
+    background-color: #2d414c;
+    color: #fff;
+    padding: 20px;
+    width: auto;
+}
+
+header h1{
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+    color: #009a00 ;
+}
+
+/* === NAV === */
+#logo-inst{
+    width: 50px;
+}
+
+/* === FOOTER === */
+footer{
+    background-color: #2d414c;
+    padding: 15px;
+    margin-top: 30px;
+    width: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
