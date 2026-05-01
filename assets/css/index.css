@@ -1,5 +1,5 @@
 /* === MAIN === */
-/* = Mensaje de bienvenida = */
+
 /*Estilo general para los titulos h2*/
 .titulos{
     text-align: center;
@@ -9,11 +9,14 @@
     margin-top: 10px;
     color: #2d414c ;
 }
+
+/* = Mensaje de bienvenida = */
 #bienvenida p{
     text-align: center;
 }
 
 /* = Mensaje de descripcion = */
+/* Estilos del titulo */
 #descripcion h3{
     font-weight: bold;
     font-size: 25px;
@@ -21,16 +24,27 @@
     margin-left: 15px;
     color: #2d414c ;
 }
+/* Para que el texto no toque las paredes*/
 #descripcion p{
     padding: 15px;
 }
+/* Estilos del enlace y hover */
+#descripcion a{
+    text-decoration: none;
+    color: #2d414c;
+}
+#descripcion a:hover{
+    color: #009a00;
+}
+    
 
 /* = Carrusel + titulo = */
+/* Para achicar el carrusel*/
 #carrusel {
     padding: 25px;
 }
 
-/* = cads carreras = */
+/* = Cards carreras = */
 /* Para separar las cartas*/
 .col{
     padding: 10px;
