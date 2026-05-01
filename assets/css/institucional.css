@@ -1,0 +1,17 @@
+/* === MAIN === */
+
+/*Estilo general para los titulos h2*/
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 45px;
+    margin-top: 10px;
+    color: #2d414c ;
+}
+
+/* = Historia = */
+/* Acomodo del texto */
+#historia p{
+    padding: 15px;
+}
