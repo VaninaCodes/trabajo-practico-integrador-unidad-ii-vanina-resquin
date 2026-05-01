@@ -1,4 +1,37 @@
 /* === MAIN === */
-main h2{
+/* = Mensaje de bienvenida = */
+/*Estilo general para los titulos h2*/
+.titulos{
     text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 45px;
+    margin-top: 10px;
+    color: #2d414c ;
+}
+#bienvenida p{
+    text-align: center;
+}
+
+/* = Mensaje de descripcion = */
+#descripcion h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #2d414c ;
+}
+#descripcion p{
+    padding: 15px;
+}
+
+/* = Carrusel + titulo = */
+#carrusel {
+    padding: 25px;
+}
+
+/* = cads carreras = */
+/* Para separar las cartas*/
+.col{
+    padding: 10px;
 }

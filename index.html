@@ -68,63 +68,148 @@
     <main>
       <!-- Contenedor main -->
       <div id="contenedor-main">
-        <h2>
-          Carreras
-          <img
-            src="assets/img/icono-flecha-abajo.png"
-            alt="Flecha apuntando abajo"
-          />
-        </h2>
+        <!-- = mensaje de bienvenida = -->
+        <section id="seccion-bienvenida">
+          <div id="bienvenida">
+            <h2 class="titulos">Bienvenidas/dos</h2>
+            <p>
+              Bienvenidos al Instituto Politécnico Formosa. Formamos técnicos de
+              excelencia para los desafíos del <strong>presente</strong> y el
+              <strong> futuro</strong>.
+            </p>
+          </div>
+        </section>
 
-        <!-- = BOOTSTRAP : Autoplaying carousels = -->
-        <div
-          id="carouselExampleAutoplaying"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="carreras.html"
-                ><img
-                  src="https://i.pinimg.com/originals/80/b1/cf/80b1cf27df714a3ba0da909fd3f3f221.gif"
-                  class="d-block w-100"
-                  alt="..."
-              /></a>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://i.pinimg.com/originals/2e/7c/05/2e7c058c9cfd7b4b05b18cf503a9bb59.gif"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://i.pinimg.com/originals/ab/49/53/ab49534a6e0af22bba8d9b24ce62a5d9.gif"
-                class="d-block w-100"
-                alt="..."
-              />
+        <!-- = descripcion = -->
+        <section id="seccion-descripcion">
+          <div id="descripcion">
+            <h3>Descripción Institucional</h3>
+            <p>
+              El Instituto Politécnico Formosa (IPF) es un organismo
+              descentralizado de la Administración Pública Provincial, vinculado
+              al Ministerio de Cultura y Educación de la Provincia de Formosa,
+              creado mediante el Decreto Provincial N° 18 del año 2018. Su
+              misión es brindar educación superior técnica y tecnológica
+              orientada al desarrollo socio-económico local y regional.
+            </p>
+          </div>
+        </section>
+
+        <!-- = carrusel + titulo = -->
+        <section id="seccion-carrusel">
+          <div id="carrusel">
+            <!-- = BOOTSTRAP : Autoplaying carousels = -->
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/carrusel-1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/carrusel-2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/carrusel-3.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        </section>
+
+        <!-- = Cartas con las carreras = -->
+        <section id="seccion-cartas">
+          <div id="cartas">
+            <h2 class="titulos">Carreras</h2>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/img/card-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Tecnicatura Superior en Desarrollo de Software
+                        Multiplataforma
+                      </h5>
+                      <a href="carreras.html" class="btn btn-dark"
+                        >Más informacion</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/img/card-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Tecnicatura Superior en Telecomunicaciones
+                      </h5>
+                      <a href="carreras.html" class="btn btn-dark"
+                        >Más informacion</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/img/card-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Tecnicatura Superior en Química Industrial
+                      </h5>
+                      <a href="carreras.html" class="btn btn-dark"
+                        >Más informacion</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/img/card-4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Tecnicatura Superior en Mecatrónica
+                      </h5>
+                      <a href="carreras.html" class="btn btn-dark"
+                        >Más informacion</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
 
