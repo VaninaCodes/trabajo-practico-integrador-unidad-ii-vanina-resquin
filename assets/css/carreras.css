@@ -40,3 +40,20 @@
     border-radius: 10px;
     transition: 0.3 ease-in-out;
 }
+
+/* = Notacion = */
+#notacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 45px;
+}
+#notacion h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+#notacion p{
+    text-align: center;
+}
