@@ -1,0 +1,42 @@
+/* === MAIN === */
+/*Estilo generales */
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 45px;
+    margin-top: 10px;
+    color: #2d414c ;
+}
+/* Para las secciones con aside */
+.contenido{
+    display: flex;           
+    align-items: center;     
+    gap: 20px;               
+}
+.aside-desc{
+    padding: 15px;
+}
+.aside-desc img{
+    width: 250px;            
+    height: auto;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.aside-desc h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #068587 ;
+}
+.aside-desc h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #068587 ;
+}
+.div-general:hover{
+    background-color: #59798aa1;
+    border-radius: 10px;
+    transition: 0.3 ease-in-out;
+}
