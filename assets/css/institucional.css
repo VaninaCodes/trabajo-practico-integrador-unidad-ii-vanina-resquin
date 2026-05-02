@@ -15,3 +15,58 @@
 #historia p{
     padding: 15px;
 }
+
+/* = Mision & Vision = */
+#cartas-mi-vi{
+    padding: 15px;
+}
+/* Mision */
+#carta-mision{
+    padding: 20px;
+    background-color: #2d414c;
+    border-radius: 10px;
+    color: #fff;
+}
+#carta-mision:hover{
+    background-color: #46515a;
+    transition: 0.3 ease-in-out;
+}
+#carta-mision h5{
+    color: #009a00;
+    font-weight: bold;
+}
+/* Vision */
+#carta-vision{
+    padding: 20px;
+    background-color: #2d414c;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#carta-vision:hover{
+    background-color: #46515a;
+    transition: 0.3 ease-in-out;
+}
+#carta-vision h5{
+    color: #009a00;
+    font-weight: bold;
+}
+
+/* = Autoridades = */
+#tabla-autoridades{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* = Estructura organizatuva = */
+#estructura h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #4FB99F ;
+}
+#estructura p{
+    padding: 15px;
+}
