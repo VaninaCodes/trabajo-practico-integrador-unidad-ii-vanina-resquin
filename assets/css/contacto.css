@@ -1,0 +1,83 @@
+/* === MAIN === */
+
+/*Estilo general para los titulos h2*/
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 45px;
+    margin-top: 10px;
+    color: #2d414c ;
+}
+
+/* = Formulario = */
+#formulario{
+    padding: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#formulario button{
+    border: none;
+    color: white;
+    background-color: #2d414c;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+}
+#formulario button:hover{
+    background-color: #009a00;
+    transition: 0.3 ease;
+}
+#btn {
+    text-align: center;
+}
+
+/* = Datos de contacto =  */
+h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: #fff ;
+    text-align: center;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    text-align: left;
+}
+#seccion-contacto{
+    margin-top: 40px;
+    background-color: #4d7185;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#horarios p{
+    text-align: center;
+}
+#horarios{
+    padding: 15px;
+}
+
+/* mapa  */
+#mapa{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mapa h3{
+    color: #2d414c;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 15px;
+}
